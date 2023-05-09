@@ -27,7 +27,7 @@ const initializeDBandServer = async () => {
   }
 };
 initializeDBandServer();
-
+console.log("HelloWorld!");
 const authenticate = (request, response, next) => {
   let jwtToken;
   const authHeader = request.headers["authorization"];
